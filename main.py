@@ -51,7 +51,7 @@ def cosinus(ck, qk):
         licznik.append(result) 
 
 
-    wynik = [round(licznik[i]/mian[i], 2) for i in range(len(mian))]
+    wynik = [float(round(licznik[i]/mian[i], 2)) for i in range(len(mian))]
 
     return wynik
 
